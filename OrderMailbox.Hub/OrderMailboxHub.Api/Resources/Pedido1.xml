@@ -1,0 +1,160 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<EstructuraPedido xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema'>
+  <ElPedido horaEntrega='2019-11-15T12:45:00' tipoEntrega='2' tipoSolicitud='4' importeTotal='15.8499994' horaComienzoElaboracion='2019-11-15T12:15:00' tipoDia='5' tipoCliente='5' numLineas='1' notasElaboracion='' idTienda='03514' idMedioPago='1' tipoClienteFidelizacion='0' horaCompromiso='0001-01-01T00:00:00' FavoritoEscompleto='0' valoresAuditoria='0 0 0 0' pe_clave='3514111512172925' esCuponEntradaRegalo='false' idCuponEntradaRegalo='0' Key='eb008b98-cb3c-4b0d-ba3e-cf22f67d605c' Duplicado='false' productoXML='&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt; &lt;productos&gt;   &lt;producto name=&quot;Pizza Mexicana Spicy&quot; unidades=&quot;1&quot;&gt;     &lt;ingredientes&gt;base classica, molho mexicano (picante ), topping à base de mozzarella, crispy bacon, pim verde e milho&lt;/ingredientes&gt;   &lt;/producto&gt; &lt;/productos&gt;' PagoExterno='0' AceptaEncuestas='false'>
+    <misLineasProducto>
+      <LineaProducto idTamElegido='20' unidades='1' numPartes='1' importeLinea='15.8499994' importeOriginal='15.8499994' numLinea='1' FavoritoActivo='0' esMenu='false'>
+        <misProductos>
+          <Producto pv_clave='999950001204827' pv_nombre='Pizza Mexicana Spicy' pv_nomb_c='P Mex SPICY' pv_codigo='PMX' pv_tiva='7' pv_orden='4' pv_activo='1' pv_ingre='4' nroElecciones='8' pv_co_tama='20' pv_desc='Sente o calor do México com esta pizza! Saboreia a nossa massa fresca com molho mexicano spicy (picante) e topping à base mozzarella, crispy bacon, pimento verde e milho. Olé!' pv_bmp='PMX.PNG' pv_desc_ing='Base de massa fresca com molho mexicano spicy (picante) e topping à base de mozzarella, crispy bacon, pimento verde e milho.'>
+            <misGDV>
+              <long>999950000937252</long>
+            </misGDV>
+            <miPrecio precioNeto='14.0265474' precioFinal='15.8499994' porcentajeImpuesto='52' />
+            <misElecciones>
+              <Eleccion unidades='1' pv_clave='999950000021656' pv_codigo='BASE' vp_co_tama='20' ap_numalt='1' ap_clave='999950001205235' gv_clave='999950000023983' gv_nombre='Pizza' gv_bmp='' gv_desc='' gv_orden='0' ev_clave='999950001205236' pv_nombre='Base classica' pv_desc='' ap_co_prec='1' incluida='true' visualizar='true' numEleccion='1' ap_numElem='1' ap_elemAlt='1' ev_numElem='1'>
+                <miPrecio precioNeto='8.539823' precioFinal='9.65' porcentajeImpuesto='13' tipoImpuesto='7' idTamanyo='20' />
+                <misTamanyosPosibles>
+                  <short>16</short>
+                  <short>20</short>
+                  <short>21</short>
+                </misTamanyosPosibles>
+                <misTamanyosSinStock />
+                <lstGDV>
+                  <long>999950001209600</long>
+                  <long>999950000021832</long>
+                  <long>999950000938100</long>
+                  <long>999950000578546</long>
+                  <long>999950000023983</long>
+                  <long>999950000472505</long>
+                </lstGDV>
+              </Eleccion>
+              <Eleccion basetm='999950001205235' unidades='1' pv_clave='999950000022241' pv_codigo='SAJ' vp_co_tama='20' ap_numalt='2' ap_clave='999950001205245' gv_clave='999950000024101' gv_nombre='Molhos Pizzas' gv_bmp='CONFIG_SALSA.JPG' gv_desc='' gv_orden='11' ev_clave='999950001205246' pv_nombre='MOLHO MEXICANO (PICANTE )' pv_desc='' ap_co_prec='1' incluida='true' pv_mitad='true' visualizar='true' numEleccion='4' ap_numElem='1' ap_elemAlt='1' ev_numElem='1' pv_ingre='1'>
+                <miPrecio precioNeto='1.37168133' precioFinal='1.55' porcentajeImpuesto='13' tipoImpuesto='7' idTamanyo='20' />
+                <misTamanyosPosibles>
+                  <short>16</short>
+                  <short>20</short>
+                  <short>21</short>
+                </misTamanyosPosibles>
+                <misTamanyosSinStock />
+                <lstGDV>
+                  <long>999950001209600</long>
+                  <long>999950000024101</long>
+                  <long>999950000901501</long>
+                  <long>999950000028800</long>
+                </lstGDV>
+              </Eleccion>
+              <Eleccion basetm='999950001205235' unidades='1' pv_clave='999950000024018' pv_codigo='MOZ' vp_co_tama='20' ap_numalt='3' ap_clave='999950001205249' gv_clave='999950000024065' gv_nombre='QUEIJO' gv_bmp='CONFIG_CHEEESE.JPG' gv_desc='' gv_orden='12' ev_clave='999950001205250' pv_nombre='TOPPING À BASE DE MOZZARELLA' pv_desc='' ap_co_prec='1' incluida='true' pv_mitad='true' visualizar='true' numEleccion='5' ap_numElem='1' ap_elemAlt='1' ev_numElem='1'>
+                <miPrecio porcentajeImpuesto='13' tipoImpuesto='7' idTamanyo='20' />
+                <misTamanyosPosibles>
+                  <short>16</short>
+                  <short>20</short>
+                  <short>21</short>
+                </misTamanyosPosibles>
+                <misTamanyosSinStock />
+                <lstGDV>
+                  <long>999950001209600</long>
+                  <long>999950001170206</long>
+                  <long>999950000024065</long>
+                  <long>999950000857903</long>
+                </lstGDV>
+              </Eleccion>
+              <Eleccion basetm='999950001205235' unidades='1' pv_clave='999950000878112' pv_codigo='BACR' vp_co_tama='20' ap_numalt='4' ap_clave='999950001205256' gv_clave='999950000631420' gv_nombre='INGREDIENTE PIZZA ESPECIAIS' gv_bmp='CONFIG_EXCLUSIVO.JPG' gv_desc='' gv_orden='21' ev_clave='999950001205257' pv_nombre='Crispy Bacon' pv_desc='' ap_co_prec='1' incluida='true' pv_mitad='true' visualizar='true' numEleccion='7' ap_numElem='1' ap_elemAlt='1' ev_numElem='1' pv_ingre='2'>
+                <miPrecio precioNeto='2.74336267' precioFinal='3.1' porcentajeImpuesto='13' tipoImpuesto='7' idTamanyo='20' />
+                <misTamanyosPosibles>
+                  <short>16</short>
+                  <short>20</short>
+                  <short>21</short>
+                </misTamanyosPosibles>
+                <misTamanyosSinStock />
+                <lstGDV>
+                  <long>999950001209600</long>
+                  <long>999950000631420</long>
+                  <long>999950000880302</long>
+                </lstGDV>
+              </Eleccion>
+              <Eleccion basetm='999950001205235' unidades='1' pv_clave='999950001204769' pv_codigo='PVMI' vp_co_tama='20' ap_numalt='5' ap_clave='999950001205260' gv_clave='999950000631420' gv_nombre='INGREDIENTE PIZZA ESPECIAIS' gv_bmp='CONFIG_EXCLUSIVO.JPG' gv_desc='' gv_orden='21' ev_clave='999950001205261' pv_nombre='Pim Verde e Milho' pv_desc='' ap_co_prec='1' incluida='true' pv_mitad='true' visualizar='true' numEleccion='8' ap_numElem='1' ap_elemAlt='1' ev_numElem='1' pv_ingre='1'>
+                <miPrecio precioNeto='1.37168133' precioFinal='1.55' porcentajeImpuesto='13' tipoImpuesto='7' idTamanyo='20' />
+                <misTamanyosPosibles>
+                  <short>16</short>
+                  <short>20</short>
+                  <short>21</short>
+                </misTamanyosPosibles>
+                <misTamanyosSinStock />
+                <lstGDV>
+                  <long>999950001209600</long>
+                  <long>999950000631420</long>
+                </lstGDV>
+              </Eleccion>
+            </misElecciones>
+            <misEleccionesSinStock />
+            <misTamanyos>
+              <Tamanyo vp_c_pv='999950000021656' vp_co_enpe='2' vp_co_tama='16' nombre='Individual'>
+                <miPrecio precioNeto='8.141593' precioFinal='9.2' porcentajeImpuesto='15.8888893' />
+              </Tamanyo>
+              <Tamanyo vp_c_pv='999950000021656' vp_co_enpe='2' vp_co_tama='20' nombre='Média'>
+                <miPrecio precioFinal='15.8499994' />
+              </Tamanyo>
+              <Tamanyo vp_c_pv='999950000021656' vp_co_enpe='2' vp_co_tama='21' nombre='Familiar'>
+                <miPrecio precioNeto='19.3805313' precioFinal='21.9' porcentajeImpuesto='15.8888893' />
+              </Tamanyo>
+            </misTamanyos>
+            <misTamanyosSinStock />
+            <misBaseTam>
+              <BaseTam ap_clave='999950001205235' numEleccion='1'>
+                <misDependenciaBT>
+                  <DependenciaBT ap_clave='999950001205245' ev_clave='999950001205246' />
+                  <DependenciaBT ap_clave='999950001205249' ev_clave='999950001205250' />
+                  <DependenciaBT ap_clave='999950001205249' ev_clave='999950001205254' />
+                  <DependenciaBT ap_clave='999950001205256' ev_clave='999950001205257' />
+                  <DependenciaBT ap_clave='999950001205260' ev_clave='999950001205261' />
+                </misDependenciaBT>
+              </BaseTam>
+            </misBaseTam>
+          </Producto>
+        </misProductos>
+        <objectid>0</objectid>
+      </LineaProducto>
+    </misLineasProducto>
+    <misLineasRegalo />
+    <tipoClienteTPZ>0</tipoClienteTPZ>
+    <misAplicacionPromocionTotalidad />
+    <lstAsignacionPDV>
+      <AsignacionPDV numLinea='1' unidadesAsignadas='1' />
+    </lstAsignacionPDV>
+    <lstLineaPromocionada />
+    <lstLineaPromoAcumulable />
+    <pe_numalb>500</pe_numalb>
+    <valorGoContabilizado>-1</valorGoContabilizado>
+    <PromocionesFidelizacionAplicadas />
+    <objectid>8262055</objectid>
+  </ElPedido>
+  <IdTienda>03514</IdTienda>
+  <UsuarioCanal>93000004536261</UsuarioCanal>
+  <UsuarioAplicacion>93000004536261</UsuarioAplicacion>
+  <Z1_fase1>900</Z1_fase1>
+  <Z1_fase2>50</Z1_fase2>
+  <DatosDeEntrega telefono='666626465' clienteNuevo='true' direccionEntrega='FRANCISCO SA CARNEIRO, 25 A ' idCalle='900260000000365' idPortal='790026000003553' numeroPortal='0' edificio='' piso='' puerta='' escalera='' bloque='' habitacionHotel='' apartamento='' habitacion='' barrio='' observacionesCliente='' apellidosCliente='' nombreCompletoCliente='  ' Calle='Rua FRANCISCO SA CARNEIRO 25 A'>
+    <Campos>
+      <CamposDireccion Nombre='Andar' Valor='' PosicionHueco='1' Caracteres='3' Orden='1' />
+      <CamposDireccion Nombre='Bloco' Valor='' PosicionHueco='4' Caracteres='5' Orden='2' />
+      <CamposDireccion Nombre='Porta' Valor='' PosicionHueco='9' Caracteres='3' Orden='3' />
+      <CamposDireccion Nombre='Escada' Valor='' PosicionHueco='11' Caracteres='3' Orden='4' />
+    </Campos>
+  </DatosDeEntrega>
+  <JustificantePago>true</JustificantePago>
+  <Session>5n4mt32ar5zvpruyopmsbyqk</Session>
+  <TiempoEntrega>30</TiempoEntrega>
+  <Movimiento pn_clavemov='0' pn_tipo='0' pn_clavecaja='0' pn_claveusu='93000004536261' pn_importe='15.8499994' pn_iva='0' pn_clavemon='1' pn_claveori='0' pn_clavepag='1' pn_liqui='0' pn_cambio='0' />
+  <IdCanal>4</IdCanal>
+  <OtrosCanales>4</OtrosCanales>
+  <Pais>351</Pais>
+  <Fecha>1900-01-01T00:00:00</Fecha>
+  <NroAlbaran>500</NroAlbaran>
+  <DatosEmpresa Nombre='' CIF='0' Direccion='' CodPostal='0000-000' CodProvincia='0' IdTienda='03514' NombreProvincia='' DV='' CodigoFactura='0' GrabarDatosEmpresa='false' />
+  <MinutosTimeOutServTienda>105000</MinutosTimeOutServTienda>
+  <ServTiendaGrabador>true</ServTiendaGrabador>
+  <AckActivo>false</AckActivo>
+  <IpCliente>10.255.251.7</IpCliente>
+  <MinutosPenalizacionReparto>0</MinutosPenalizacionReparto>
+  <VienedeDePedidosProgramados>false</VienedeDePedidosProgramados>
+  <ConfirmationRequiredPaymentPlatform>false</ConfirmationRequiredPaymentPlatform>
+</EstructuraPedido>

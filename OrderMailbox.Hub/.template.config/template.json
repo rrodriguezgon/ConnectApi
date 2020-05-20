@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Vectotr",
+  "classifications": [ "Web/WebAPI" ],
+  "name": "IntegrationExternalStore",
+  "identity": "IntegrationExternalStore.CSharp",
+  "groupIdentity": "IntegrationExternalStore",
+  "shortName": "IntegrationExternalStore",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "IntegrationExternalStore",
+  "preferNameDirectory": true,
+  "symbols": {
+    "includetest": {
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "true"
+    }
+  },
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "condition": "(!includetest)",
+          "exclude": [ "IntegrationExternalStore.Tests/**/*" ]
+        }
+      ]
+    }
+  ]
+}

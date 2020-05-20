@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderMailboxHub.Host", "OrderMailboxHub.Host\OrderMailboxHub.Host.csproj", "{01B020BD-54F2-4EB1-81E5-E2B15ECAB3A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderMailboxHub.Api", "OrderMailboxHub.Api\OrderMailboxHub.Api.csproj", "{98F575EC-2C04-4B00-BEE1-0D46E9BD21AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderMailboxHub.Application", "OrderMailboxHub.Application\OrderMailboxHub.Application.csproj", "{7FE4D7F4-16C3-4CE0-AE94-E71024796704}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".tests", ".tests", "{ABA1AB14-D030-48AD-AE2F-C5F69A4AEA97}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderMailboxHub.Tests", "OrderMailboxHub.Tests\OrderMailboxHub.Tests.csproj", "{9E3C00B3-3B14-4EA7-93AC-EA8D9B2B6CEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".solution", ".solution", "{73B3BE90-8C55-405D-9D44-B534EDFB9FD7}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		Dockerfile = Dockerfile
+		privatefeeds.config = privatefeeds.config
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01B020BD-54F2-4EB1-81E5-E2B15ECAB3A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01B020BD-54F2-4EB1-81E5-E2B15ECAB3A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01B020BD-54F2-4EB1-81E5-E2B15ECAB3A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01B020BD-54F2-4EB1-81E5-E2B15ECAB3A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98F575EC-2C04-4B00-BEE1-0D46E9BD21AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F575EC-2C04-4B00-BEE1-0D46E9BD21AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F575EC-2C04-4B00-BEE1-0D46E9BD21AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F575EC-2C04-4B00-BEE1-0D46E9BD21AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FE4D7F4-16C3-4CE0-AE94-E71024796704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FE4D7F4-16C3-4CE0-AE94-E71024796704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FE4D7F4-16C3-4CE0-AE94-E71024796704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FE4D7F4-16C3-4CE0-AE94-E71024796704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E3C00B3-3B14-4EA7-93AC-EA8D9B2B6CEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E3C00B3-3B14-4EA7-93AC-EA8D9B2B6CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E3C00B3-3B14-4EA7-93AC-EA8D9B2B6CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E3C00B3-3B14-4EA7-93AC-EA8D9B2B6CEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9E3C00B3-3B14-4EA7-93AC-EA8D9B2B6CEA} = {ABA1AB14-D030-48AD-AE2F-C5F69A4AEA97}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A54AADB-AA78-4294-B626-B1A3354F7F45}
+	EndGlobalSection
+EndGlobal
